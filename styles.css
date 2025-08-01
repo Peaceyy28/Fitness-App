@@ -1,0 +1,433 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    border: 50px;
+    background-color: white;
+}
+
+.TechyJaunt {
+    width: 120px;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: #0f172a;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login-button {
+    background-color: #eef2f4;
+    padding: 12px 24px;
+    border-radius: 5px;
+}
+
+.login-button a {
+    text-decoration: none;
+    color: #0f172a;
+    font-weight: bold;
+}
+
+/* HERO SECTION */
+.container {
+    justify-content: center;
+    max-width: 1200px;
+    padding: 20px 20px;
+
+
+}
+
+.hero {
+
+    padding: 50px 20px;
+}
+
+.First-para p {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.First-para2 p {
+    font-size: 18px;
+    margin: 15px 0;
+
+}
+
+.button {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+
+}
+
+.button1,
+.button2 {
+    border-radius: 8px;
+    padding: 14px 24px;
+}
+
+.button1 {
+    background: #3b82f6;
+}
+
+.button1 a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.button2 {
+    background: #ebebeb;
+}
+
+.button2 a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.TechyJaunt2 {
+    width: 70vw;
+    max-width: 700px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+}
+
+/* BENEFITS */
+.section2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.section2 p {
+    font-size: 30px;
+}
+
+.img3 {
+    width: 70vw;
+    max-width: 500px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+}
+
+.getstarted {
+    background-color: #3b82f6;
+    max-width: 150px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.getstarted a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* TESTIMONIALS */
+.section2b {
+    background-color: #1b1b1b;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.section2bi {
+    font-size: 30px;
+}
+
+.review {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.review>div {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 320px;
+    flex: 1 1 280px;
+}
+
+/* PRICING */
+.subscribe {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 40px auto;
+}
+
+.subscribe1,
+.subscribe2 {
+    max-width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.subscribe1 {
+    background: #eef2f4;
+}
+
+.subscribe2 {
+    background: black;
+    color: white;
+}
+
+/* FOOTER */
+.Section3 {
+    text-align: center;
+    font-size: 33px;
+    margin-top: 40px;
+}
+
+.Section3 p {
+    font-size: 20px;
+}
+
+.subscribe {
+    display: flex;
+    gap: 30px;
+    justify-items: center;
+    justify-content: center;
+}
+
+.subscribe1 {
+    font-size: 16.5px;
+    max-width: 350px;
+    background-color: #eef2f4;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+.subscribe1 ul {
+    line-height: 2.3;
+    font-weight: lighter;
+    list-style: none;
+}
+
+.divider {
+    height: 0.1px;
+    margin: 20px 15px;
+}
+
+
+
+.free {
+    font-size: 30px
+}
+
+.subscribe ul {
+    text-align: left;
+    padding-left: 15px;
+}
+
+.subscribe1 p {
+    margin-bottom: 15px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.subscribe1 h2 {
+    font-size: 32px;
+    padding-top: 60px;
+    font-weight: lighter;
+    text-align: left;
+
+}
+
+.subscribe-button {
+    background-color: #3b82f6;
+    max-width: 100px;
+    margin-left: 11%;
+    justify-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    width: fit-content;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    min-width: 160px;
+
+}
+
+.subscribe-button a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    align-items: center;
+    margin: auto;
+    white-space: nowrap;
+}
+
+.subscribe2 {
+    color: white;
+    background-color: black;
+    font-size: 16.5px;
+    max-width: 350px;
+    max-height: 700px;
+    border-radius: 10px;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.subscribe2 h2 {
+    font-size: 30px;
+    font-weight: lighter;
+    padding-top: 50px;
+}
+
+.subscribe2 p {
+    font-size: 18px;
+    margin-bottom: 2px;
+    margin-top: 30px;
+}
+
+.subscribe2 ul {
+    line-height: 2.8;
+
+}
+
+.pricing {
+    text-align: center;
+    font-size: 17px;
+    font-weight: lighter;
+
+}
+
+.faq1 {
+    border: black;
+    border-width: 10px;
+}
+
+.Faq-menu {
+    display: flex;
+    list-style: none;
+    gap: 45px;
+    max-width: 400px;
+    margin: auto;
+    align-items: center;
+    background: #e6e7e8;
+    padding: 13px 13px;
+    cursor: pointer;
+    justify-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.FAQ {
+    text-align: center;
+}
+
+.FAQ h3 {
+    font-size: 37px;
+    font-weight: lighter;
+}
+
+.All {
+    background-color: #3b82f6;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+details {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 2px;
+    border: 0.2px solid #ccc
+}
+
+details p {
+    margin-top: 60px;
+    font-size: 16px;
+}
+
+summary {
+    cursor: pointer;
+    list-style: none;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+summary::marker {
+    display: none;
+}
+
+summary::after {
+    content: '+';
+    float: right
+}
+
+details[open] summary::after {
+    content: '-'
+}
+
+.Energize2 {
+    background-color: black;
+    margin-left: 45px;
+    max-width: 220px;
+    margin-top: 40px;
+
+}
+
+.last-section {
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    font-weight: lighter;
+    padding: 40px;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.last-section ul {
+    margin-top: 3px;
+    list-style: none;
+    line-height: 2.5;
+    color: #c5c6c6;
+
+}
+
+footer {
+    text-align: center;
+}
